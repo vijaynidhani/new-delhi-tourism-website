@@ -63,5 +63,70 @@
       "https://example.com/humayunstomb2.jpg"
     ],
     "category": "historical"
+  },
+  {
+    "id": 6,
+    "name": "Akshardham Temple",
+    "description": "A Hindu temple and spiritual-cultural campus dedicated to devotion, learning and harmony.",
+    "location": "Noida Mor, Pandav Nagar, New Delhi, Delhi 110092",
+    "opening_hours": "9:30 AM - 6:30 PM (closed on Mondays)",
+    "entry_fee": "Free (exhibitions have separate charges)",
+    "images": [
+      "https://example.com/akshardham1.jpg",
+      "https://example.com/akshardham2.jpg"
+    ],
+    "category": "religious"
+  },
+  {
+    "id": 7,
+    "name": "Lodhi Garden",
+    "description": "A city park containing Mohammed Shah's Tomb, Tomb of Sikandar Lodi, Shisha Ghat and Bara Gumbad.",
+    "location": "Lodi Road, New Delhi, Delhi 110003",
+    "opening_hours": "6:00 AM - 8:00 PM",
+    "entry_fee": "Free",
+    "images": [
+      "https://example.com/lodhi1.jpg",
+      "https://example.com/lodhi2.jpg"
+    ],
+    "category": "park"
+  },
+  {
+    "id": 8,
+    "name": "Hauz Khas Village",
+    "description": "A historic urban village known for its medieval monuments, trendy boutiques, art galleries and cafes.",
+    "location": "Hauz Khas, New Delhi, Delhi 110016",
+    "opening_hours": "10:00 AM - 11:00 PM",
+    "entry_fee": "Free",
+    "images": [
+      "https://example.com/hauzkhas1.jpg",
+      "https://example.com/hauzkhas2.jpg"
+    ],
+    "category": "cultural"
+  },
+  {
+    "id": 9,
+    "name": "Chandni Chowk",
+    "description": "One of the oldest and busiest markets in Old Delhi, famous for its spices, dried fruit, silver jewelry and vivid saris.",
+    "location": "Chandni Chowk, Near Red Fort, New Delhi, Delhi 110006",
+    "opening_hours": "10:00 AM - 8:00 PM (closed on Sundays)",
+    "entry_fee": "Free",
+    "images": [
+      "https://example.com/chandnichowk1.jpg",
+      "https://example.com/chandnichowk2.jpg"
+    ],
+    "category": "market"
+  },
+  {
+    "id": 10,
+    "name": "India Habitat Centre",
+    "description": "A multidisciplinary habitat providing a liberal, pro-active, and dynamic environment for a variety of individuals and institutions working in diverse habitat-related areas.",
+    "location": "Lodhi Road, New Delhi, Delhi 110003",
+    "opening_hours": "9:00 AM - 9:00 PM",
+    "entry_fee": "Free (some events may have charges)",
+    "images": [
+      "https://example.com/habitat1.jpg",
+      "https://example.com/habitat2.jpg"
+    ],
+    "category": "cultural"
   }
 ]

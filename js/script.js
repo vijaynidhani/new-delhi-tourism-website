@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 placeCard.className = 'place-card';
                 
                 // Use first image or placeholder
-                const imageUrl = place.images && place.images[0] ? place.images[0] : 'https://via.placeholder.com/300x150?text=No+Image';
+                const imageUrl = place.images && place.images[0] ? place.images[0] : 'https://via.placeholder.com/300x200?text=No+Image';
                 
                 placeCard.innerHTML = `
                     <img src="${imageUrl}" alt="${place.name}">

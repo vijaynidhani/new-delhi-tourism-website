@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "Red Fort",
+    "description": "A historic fort in the city of Delhi that served as the main residence of the Mughal Emperors.",
+    "location": "Netaji Subhash Marg, Chandni Chowk, New Delhi, Delhi 110006",
+    "opening_hours": "9:30 AM - 4:30 PM (closed on Mondays)",
+    "entry_fee": "₹35 for Indians, ₹500 for foreigners",
+    "images": [
+      "https://example.com/redfort1.jpg",
+      "https://example.com/redfort2.jpg"
+    ],
+    "category": "historical"
+  },
+  {
+    "id": 2,
+    "name": "India Gate",
+    "description": "An arch-memorial dedicated to the soldiers of the British Indian Army who died in World War I.",
+    "location": "Rajpath, India Gate, New Delhi, Delhi 110001",
+    "opening_hours": "Open 24 hours",
+    "entry_fee": "Free",
+    "images": [
+      "https://example.com/indiagate1.jpg",
+      "https://example.com/indiagate2.jpg"
+    ],
+    "category": "monument"
+  },
+  {
+    "id": 3,
+    "name": "Qutub Minar",
+    "description": "A minaret that forms part of the Qutb complex, a UNESCO World Heritage Site.",
+    "location": "Qutb Minar, Mehrauli, New Delhi, Delhi 110030",
+    "opening_hours": "7:00 AM - 5:00 PM",
+    "entry_fee": "₹30 for Indians, ₹500 for foreigners",
+    "images": [
+      "https://example.com/qutubminar1.jpg",
+      "https://example.com/qutubminar2.jpg"
+    ],
+    "category": "historical"
+  },
+  {
+    "id": 4,
+    "name": "Lotus Temple",
+    "description": "A Bahá'í House of Worship notable for its flowerlike shape.",
+    "location": "Lotus Temple Rd, Bahapur, Shambhu Dayal Bagh, Kalkaji, New Delhi, Delhi 110019",
+    "opening_hours": "9:00 AM - 5:30 PM (closed on Mondays)",
+    "entry_fee": "Free",
+    "images": [
+      "https://example.com/lotustemple1.jpg",
+      "https://example.com/lotustemple2.jpg"
+    ],
+    "category": "religious"
+  },
+  {
+    "id": 5,
+    "name": "Humayun's Tomb",
+    "description": "The tomb of the Mughal Emperor Humayun, a UNESCO World Heritage Site.",
+    "location": "Mathura Rd, Nizamuddin East, New Delhi, Delhi 110013",
+    "opening_hours": "6:00 AM - 6:00 PM",
+    "entry_fee": "₹30 for Indians, ₹500 for foreigners",
+    "images": [
+      "https://example.com/humayunstomb1.jpg",
+      "https://example.com/humayunstomb2.jpg"
+    ],
+    "category": "historical"
+  }
+]

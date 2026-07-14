@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "New Delhi Hosts International Tourism Fair 2026",
+    "summary": "The annual International Tourism Fair kicks off in New Delhi, showcasing the latest travel trends and destinations from around the world.",
+    "date": "November 15, 2026",
+    "image": "https://via.placeholder.com/400x250?text=Tourism+Fair+2026",
+    "link": "https://example.com/news/tourism-fair-2026"
+  },
+  {
+    "id": 2,
+    "title": "Red Fort Light and Sound Show Resumes After Monsoon",
+    "summary": "The popular light and sound show at the Red Fort resumes operations post-monsoon, offering visitors a spectacular evening experience.",
+    "date": "October 30, 2026",
+    "image": "https://via.placeholder.com/400x250?text=Red+Fort+Light+Show",
+    "link": "https://example.com/news/red-fort-show"
+  },
+  {
+    "id": 3,
+    "title": "New Metro Line Connects Major Tourist Attractions",
+    "summary": "The newly inaugurated Violet Line of the Delhi Metro now connects key tourist spots including India Gate, Qutub Minar, and Lotus Temple.",
+    "date": "October 15, 2026",
+    "image": "https://via.placeholder.com/400x250?text=Metro+Line+Extension",
+    "link": "https://example.com/news/metro-extension"
+  }
+]

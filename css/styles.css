@@ -1,4 +1,3 @@
-/* Basic reset */
 * {
     margin: 0;
     padding: 0;
@@ -13,20 +12,17 @@ body {
 }
 
 header {
-    background: #333;
+    background: #0066cc;
     color: #fff;
-    padding: 1rem 0;
+    padding: 1rem;
     text-align: center;
-}
-
-header h1 {
-    margin-bottom: 0.5rem;
 }
 
 nav ul {
     display: flex;
     justify-content: center;
     list-style: none;
+    background: #004c99;
 }
 
 nav ul li {
@@ -36,11 +32,13 @@ nav ul li {
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-weight: bold;
+    padding: 0.5rem 0;
+    display: block;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    background: #003366;
+    border-radius: 4px;
 }
 
 main {
@@ -49,70 +47,85 @@ main {
     margin: 0 auto;
 }
 
-section {
-    margin-bottom: 2rem;
-    background: #fff;
-    padding: 1.5rem;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-section h2 {
-    margin-top: 0;
-    color: #333;
-}
-
-#places-list {
+#places-list, #news-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
 }
 
-.place-card {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+.place-card, .news-item {
     background: #fff;
-    transition: transform 0.2s;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
 }
 
-.place-card:hover {
+.place-card:hover, .news-item:hover {
     transform: translateY(-5px);
 }
 
-.place-card img {
+.place-card img, .news-item img {
     width: 100%;
-    height: 150px;
+    height: 200px;
     object-fit: cover;
 }
 
-.place-card .info {
+.place-card .info, .news-item .news-content {
     padding: 1rem;
 }
 
-.place-card h3 {
-    margin-top: 0;
+.place-card .info h3, .news-item .news-content h3 {
+    margin-bottom: 0.5rem;
+    color: #0066cc;
 }
 
-.place-card p {
-    margin: 0.5rem 0;
+.place-card .info p, .news-item .news-content p {
+    margin-bottom: 1rem;
     color: #666;
-    font-size: 0.9rem;
 }
 
-.place-card .details {
+.place-card .details, .news-item .news-meta {
     display: flex;
-    justify-content: space-between;
-    font-size: 0.85rem;
-    color: #777;
-    margin-top: 0.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.place-card .details span, .news-item .news-meta span {
+    background: #f0f0f0;
+    padding: 0.25rem 0.5rem;
+    border-radius: 4px;
+}
+
+.news-item .news-meta a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+.news-item .news-meta a:hover {
+    text-decoration: underline;
 }
 
 footer {
     text-align: center;
-    padding: 1rem 0;
-    background: #333;
+    padding: 1rem;
+    background: #0066cc;
     color: #fff;
     margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+    
+    nav ul li {
+        margin: 0.5rem 0;
+    }
+    
+    #places-list, #news-list {
+        grid-template-columns: 1fr;
+    }
 }
